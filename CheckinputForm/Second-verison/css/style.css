@@ -1,0 +1,58 @@
+body{
+  	background:  
+	linear-gradient(
+  		rgba(155, 191, 241, 0.6), 
+  		rgba(155, 191, 241, 0.6)
+	),
+    url(../img/bg.png);
+
+	background-color: #fff;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 50px 0 0 0;
+}
+body, input[type=submit]{
+	font-size: 14px;
+	font-family: arial; 
+}
+
+/************ TEXT ************/
+h3{
+	font-family: arial;
+	text-align: center;
+}
+p{
+	margin: 30px 10px 0px 10px;
+}
+
+/************ FORM ************/
+form{
+	margin: 0 auto;
+	width: 500px;
+}
+/*** FORM CLASS ***/
+.form{
+	margin: 0 0 50px 0;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+}
+/*** FORM INPUT ***/
+input[type=submit], [type=text], select, textarea{
+	width: 100%;
+	border-radius: 4px;
+	padding: 12px 20px;
+  	margin: 10px 0;
+}
+input[type=text], select, textarea {
+  display: inline-block;
+  border-bottom: 2px solid #ccc !important;
+  border: none;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color:rgba(155, 191, 241, 0.6);
+  border: none;
+}
+
